@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# model weights — use Git LFS or host on HuggingFace instead
+model/*.bin
+model/*.safetensors
+
+# OS
+.DS_Store
+Thumbs.db
